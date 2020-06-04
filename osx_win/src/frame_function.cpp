@@ -1,0 +1,18 @@
+#include "frame_function.h"
+#include "hw1.h"
+
+void frame_function(Context &context, vector<uint8_t> &buffer){
+
+  if (context.use_average){
+    hw::average_vector(buffer);
+  }
+
+  if (context.use_invert){
+    hw::invert_vector(buffer);
+  }
+
+  if (context.use_flip){
+    hw::flip_vector(buffer,context.width, context.height);
+  }
+
+}
