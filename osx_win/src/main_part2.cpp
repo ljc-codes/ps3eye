@@ -81,19 +81,6 @@ int main(int argc, char* argv[]){
       Bnumber = 0;
     }
 
-
-
-    // *************************** IMPORTANT ***************************
-    // My rommate and I are both in the class, he took the ps3 camera
-    // home and I could not afford to buy one plus the conviencie of
-    // his made buying one unnecessary. Since he is currently half was
-    // accross the country I was unable to test the code out. I hope
-    // most of it is correct and would actually work the camera.
-
-    // Used some open CV stuff, I don't think it is fully
-    // integrated however. Did however get pretty good tracking
-    // via erode.
-
     int breaker = 30
 
     enum context {image<int> , height, width}
